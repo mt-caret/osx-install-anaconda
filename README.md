@@ -91,11 +91,11 @@ Windowsの方で起動、指示に従ってインストール。
 共有フォルダにコピー。スタートメニューの「全てのアプリ」から
 「Anaconda Prompt」を起動し、
 
-`
+```
 pip install mako
 chdir /d E:/
 pip install pyopencl-2015.2.4-cp35-none-win_amd64.whl
-`
+```
 
 を実行。
 
