@@ -15,7 +15,7 @@
 仮想化ソフトをダウンロードし、設定をした上でAnacondaを仮想マシンの中のWindowsに
 インストールします。
 
-1. Windows 10のISOを取得
+## Windows 10のISOを取得
 
 [ここ](https://www.microsoft.com/ja-jp/evalcenter/evaluate-windows-10-enterprise)
 からWindows 10の評価版をダウンロード。
@@ -29,7 +29,7 @@
 
 ![32bitか64bitか](arch.png)
 
-2. 仮想化ソフト(VirtualBox)のインストール
+## 仮想化ソフト(VirtualBox)のインストール
 
 <small>
 もしVMWare等別の仮想化ソフトを使いたいなら、この先は自分で設定して下さい。
@@ -38,7 +38,7 @@
 [ここ](https://www.virtualbox.org/wiki/Downloads)の
 `VirtualBox 5.0.18 for OS X hosts`をダウンロードし、インストール。
 
-3. Windowsのインストール
+## Windowsのインストール
 
 「New」を押し、適当な名前を入れた上で指示に従い仮想マシンを作成。
 
@@ -55,7 +55,7 @@
 
 注) ドメインの参加に関する選択は、__Azure HDではない方__を選択。
 
-4. 共有フォルダの設定
+## 共有フォルダの設定
 
 OSXと仮想マシン内のWindowsでファイルのやり取りをするために
 共有フォルダを設定します。仮想マシンを起動した状態で
@@ -79,13 +79,13 @@ OSX上の適当なフォルダを選択し、「Auto-mount」にチェックを�
 
 ![共有フォルダの確認](sharedfolders2.png)
 
-5. Anacondaのインストール
+## Anacondaのインストール
 
 講習会でもらった`Anaconda3-4.0.0-Windows-x86_64.exe`を
 共有フォルダの設定の時に選択したフォルダにコピーし、
 Windowsの方で起動、指示に従ってインストール。
 
-6. OpenCLランタイムをインストール
+## OpenCLランタイムをインストール
 
 [ここ](http://registrationcenter-download.intel.com/akdlm/irc_nas/9022/opencl_runtime_16.1_x64_setup.msi)
 からダウンロード、インストール。
@@ -93,7 +93,7 @@ Windowsの方で起動、指示に従ってインストール。
 注) このランタイムはIntel製CPU専用なので、パソコンにAMD製のCPUが入っている
 場合は自分で頑張ってください。
 
-7. 諸設定
+## 諸設定
 
 講習会でもらった`pyopencl-2015.2.4-cp35-none-win_amd64.whl`を
 共有フォルダにコピー。スタートメニューの「全てのアプリ」から
