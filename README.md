@@ -85,7 +85,15 @@ OSX上の適当なフォルダを選択し、「Auto-mount」にチェックを�
 共有フォルダの設定の時に選択したフォルダにコピーし、
 Windowsの方で起動、指示に従ってインストール。
 
-6. 諸設定
+6. OpenCLランタイムをインストール
+
+[ここ](http://registrationcenter-download.intel.com/akdlm/irc_nas/9022/opencl_runtime_16.1_x64_setup.msi)
+からダウンロード、インストール。
+
+注) このランタイムはIntel製CPU専用なので、パソコンにAMD製のCPUが入っている
+場合は自分で頑張ってください。
+
+7. 諸設定
 
 講習会でもらった`pyopencl-2015.2.4-cp35-none-win_amd64.whl`を
 共有フォルダにコピー。スタートメニューの「全てのアプリ」から
